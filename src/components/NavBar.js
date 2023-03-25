@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Outlet, Link } from "react-router-dom";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-
+import Logo from "../stewcon_logo2_0.png"
 import React from "react";
 
 // setExpanded(expanded ? false : "expanded")
@@ -26,7 +26,7 @@ function toggle(){
    <>
     <Navbar collapseOnSelect  bg="dark" variant="dark" expanded={expanded} expand="lg">
       <Container >
-        <Navbar.Brand href="#home">Stewart Consulting</Navbar.Brand>
+        <Navbar.Brand href="#home"><img className='logo' src={Logo}/></Navbar.Brand>
         <Navbar.Toggle onClick={toggle} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
