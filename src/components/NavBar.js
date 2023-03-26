@@ -24,7 +24,7 @@ function toggle(){
 }
   return (
    <>
-    <Navbar collapseOnSelect  bg="dark" variant="dark" expanded={expanded} expand="lg">
+    <Navbar   bg="dark" variant="dark" expanded={expanded} expand="lg">
       <Container >
         <Navbar.Brand href="#home"><img className='logo' src={Logo}/></Navbar.Brand>
         <Navbar.Toggle onClick={toggle} aria-controls="basic-navbar-nav" />
@@ -34,7 +34,7 @@ function toggle(){
             <NavDropdown title="About" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Another Action
               </NavDropdown.Item>
               
             </NavDropdown>
