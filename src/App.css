@@ -1,3 +1,9 @@
+.logo{
+    max-width: 70% ;
+ 
+  
+    
+}
 .me-auto{
     display: flex;
 justify-content: center;
@@ -8,13 +14,62 @@ align-items: center;
     margin: 5px 15px;
     
 }
-.logo{
-    max-width: 70%;
+.navbar{
+    background-color: #161616; 
 }
 
-@media screen and (max-width: 608px) { 
-    
-   
 
+
+.form-control {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    max-width: 100px;
+    height: 40px;
+    padding: 25px;
+    transition: all 0.5s;
+    margin-right: 5px;
+  }
+
+  .btn-close{
+    display: none;
+  }
+
+    .form-control:hover{
+        max-width: 300px;
+        padding-left: 50px;
+        transition: all 0.50s;
     
+      }
+
+
+@media screen and (max-width: 600px) { 
+    
+    
+    .navbar-brand{
+        margin: 0px;
+        padding: 0px;
+        max-width: 70%;
+
+
+    }
+  
+    .btn-close{
+        display: block;
+    margin-right: 15px;
+        
+      }
+      .d-flex{
+       justify-content: center;
+       align-items: center;
+       
+      }
+      /* .form-control:active {
+        max-width: 300px;
+        padding-left: 50px;
+        transition: all 0.50s;
+    
+      } */
 }
