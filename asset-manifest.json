@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stewartApp/static/css/main.913fa592.css",
-    "main.js": "/stewartApp/static/js/main.3fcab62a.js",
-    "static/js/787.b9823949.chunk.js": "/stewartApp/static/js/787.b9823949.chunk.js",
-    "index.html": "/stewartApp/index.html",
-    "main.913fa592.css.map": "/stewartApp/static/css/main.913fa592.css.map",
-    "main.3fcab62a.js.map": "/stewartApp/static/js/main.3fcab62a.js.map",
-    "787.b9823949.chunk.js.map": "/stewartApp/static/js/787.b9823949.chunk.js.map"
+    "main.css": "/-stewartApp/static/css/main.0a042df8.css",
+    "main.js": "/-stewartApp/static/js/main.02d3b7df.js",
+    "static/js/787.b9823949.chunk.js": "/-stewartApp/static/js/787.b9823949.chunk.js",
+    "index.html": "/-stewartApp/index.html",
+    "main.0a042df8.css.map": "/-stewartApp/static/css/main.0a042df8.css.map",
+    "main.02d3b7df.js.map": "/-stewartApp/static/js/main.02d3b7df.js.map",
+    "787.b9823949.chunk.js.map": "/-stewartApp/static/js/787.b9823949.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.913fa592.css",
-    "static/js/main.3fcab62a.js"
+    "static/css/main.0a042df8.css",
+    "static/js/main.02d3b7df.js"
   ]
 }
