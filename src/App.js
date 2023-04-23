@@ -10,6 +10,7 @@ import Blog from './components/Blog';
 import Contact from './components/Contact';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,8 @@ function App() {
 
 
 
+
+
     </Route>
 
     </Routes>
@@ -31,5 +34,6 @@ function App() {
         </div>
   );
 }
+
 
 export default App;
