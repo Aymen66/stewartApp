@@ -1,17 +1,22 @@
 import './App.css';
 import NavBar from "./components/NavBar"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from "react";
+// import React from "react";
 import { HashRouter , Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home"
 import Testimonials from "./components/Testimonials"
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import Carousel from './components/Carousel';
+import Banner1 from "./image/banner-1.jpg"
+import Banner2 from "./image/banner-2.jpg"
+import Banner3 from "./image/banner-3.jpg"
 
-
+import React, { useState } from 'react';
 
 function App() {
+  
   return (
     <div className="App">
   <HashRouter>
@@ -31,6 +36,7 @@ function App() {
 
     </Routes>
   </HashRouter>
+  {/* <Carousel index={index} slides={slides} setIndex={setIndex}/> */}
         </div>
   );
 }

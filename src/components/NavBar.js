@@ -53,8 +53,20 @@ function closeHandle(){
       <Container >        
 
         <Navbar.Brand href="#home">
+       
       <img className='logo' src={Logo}/>
-
+      {/* {window.innerWidth < 600?<Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              // className="search-hover"
+              aria-label="Search"
+              
+            ></Form.Control>
+            
+            <Button variant="outline-success">
+          <BsSearch /></Button>
+          </Form>: null} */}
         </Navbar.Brand>
 
         <Navbar.Toggle
