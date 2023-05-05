@@ -47,6 +47,8 @@ font-family:Georgia;
   max-width: 60%;
   margin: 10px auto;
 top: 4vh;
+
+box-shadow: 1px 4px 3px #090909;
 }
 .bannerImage {
   max-width: 100%;
@@ -130,7 +132,6 @@ button.active{
     max-width: 95%;
     margin: 0px auto;
     top: 2vh;
-    
   }
  
   .carousel-caption {
@@ -160,7 +161,7 @@ button.active{
 }
 .bannerImage {
   max-width: 100%;
-  min-height:45vh
+  min-height:45vh;
 
 }
 

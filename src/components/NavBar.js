@@ -27,7 +27,7 @@ function NavBar() {
     <Navbar collapseOnSelect  variant="dark"  expand="lg">
       <Container >        
 
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={Link} to={"/"} >
        
       <img className='logo' src={Logo}/>
     
