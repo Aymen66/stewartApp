@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -22,7 +23,7 @@ text-shadow: 1px 1px 1px  rgb(136, 82, 82);
   color: black;
   text-align: left;
   padding: 15px 30px;
-font-family:'Times New Roman', Times, serif;
+font-family:Georgia;
   
 }
 .carousel-caption {
@@ -72,19 +73,13 @@ top: 4vh;
   max-width: 100%;
   padding: 5px;
   /* height: 5vh; */
-  font-family:'Times New Roman', Times, serif;
+  font-family: Georgia;
 margin: 0%;
 align-items:center;
 
   display: flex;
 }
-.item-display{
- 
-}
 
-.itemCaption {
-
-}
 
 .carousel-indicators button {
   height: 15px !important;
@@ -98,17 +93,16 @@ align-items:center;
   font-size: medium;
   padding: 0%;
   margin:0;
+  font-weight: bold;
 }
 .itemCaption > p {
-  font-size: medium;
+  font-size: 15px;
   padding: 0%;
   margin:0;
 
 }
 
-.itemCaption >h4 {
-  /* margin-top: 5px; */
-font-weight: bold;}
+
 .CheckIcon {
   max-width: 13%;
   margin: 0px 10px;
@@ -133,10 +127,12 @@ button.active{
 }
 @media screen and (max-width: 900px) {
   .carousel {
-    max-width: 100%;
-    margin: 10px auto;
+    max-width: 95%;
+    margin: 0px auto;
+    top: 2vh;
     
   }
+ 
   .carousel-caption {
     flex-direction: column-reverse;
     justify-content: start;
@@ -145,7 +141,12 @@ button.active{
   .caption{
     display: none;
   }
-  
+  .itemCaption >h4 {
+    font-size: small;
+   }
+   .itemCaption > p {
+    font-size: small;
+   }
 .heading{
   max-width: 100%;
   margin-left: auto;

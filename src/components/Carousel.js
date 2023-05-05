@@ -315,7 +315,7 @@ export function Representation(){
   
   )
 }
-export function Mediation(){
+export function Management(){
   const [isShown, setIsShown] = React.useState(true)
 
   function toggleShown(){
@@ -327,8 +327,8 @@ export function Mediation(){
       <div  className="item">
         <img src={CheckIcon} className="CheckIcon"></img>
         <div className="itemCaption">
-          <h4>Owner's Representation</h4>
-          <p>Owners get a good deal</p>
+          <h4>Project Management</h4>
+          <p>Projects managed successfully</p>
         </div>
       </div>
       </div>:
@@ -356,7 +356,7 @@ export function Mediation(){
   )
 }
 
-export function Management(){
+export function  Mediation(){
   const [isShown, setIsShown] = React.useState(true)
 
   function toggleShown(){
@@ -368,8 +368,8 @@ export function Management(){
       <div  className="item">
         <img src={CheckIcon} className="CheckIcon"></img>
         <div className="itemCaption">
-          <h4>Owner's Representation</h4>
-          <p>Owners get a good deal</p>
+          <h4>Mediation</h4>
+          <p>Workable & fair settlements</p>
         </div>
       </div>
       </div>:
@@ -409,8 +409,8 @@ export function Construction(){
       <div  className="item">
         <img src={CheckIcon} className="CheckIcon"></img>
         <div className="itemCaption">
-          <h4>Owner's Representation</h4>
-          <p>Owners get a good deal</p>
+          <h4>Troubled Construction</h4>
+          <p>Sound evidence for solid cases</p>
         </div>
       </div>
       </div>:
@@ -475,7 +475,7 @@ const CarouselFadeExample = () => {
   }
   
   return (
-  <div>
+  <div >
       <Carousel   interval={6000} activeIndex={index} controls={false} onSelect={handleSelect}>
   {slides.map((slide, i) => (
     <Carousel.Item key={i}>

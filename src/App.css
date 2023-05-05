@@ -1,3 +1,4 @@
+
 .logo{
     max-width: 70% ;
  
@@ -43,7 +44,92 @@ align-items: center;
         transition: all 0.50s;
     
       }
+.contact{
+  
+  max-width: 80%;
+  /* border: 1px solid black; */
+  padding: 20px 0px 20px 20px;
+  margin: 40px auto 20px auto;
+  -moz-box-shadow: 0 0 3px #574c4c;
+  -webkit-box-shadow: 0 0 3px #574c4c;
+  box-shadow: 0 0 3px #574c4c;}
+.contactDetail{
+  padding: 20px;
+  
+  margin: 10px 0px 10px 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  line-height: 4vh;
+}
+.contactDetail p {
+  /* margin-right: 40px; */
+  max-width: 65%;
+  margin-right: auto;
+}
+.ContatImg{
+  max-width: 90%;
+  height: 30vh;
+  aspect-ratio: 7/4;
+  margin-top: 20px;
 
+}
+.contact > h1{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.App{
+  background-color: rgb(192, 190, 195);
+  max-width: 100%;
+  min-height: 100vh;
+
+  
+}
+
+/* .navbar-toggler{
+  background-color: rgb(192, 190, 195)!important;
+
+} */
+@media screen and (max-width: 900px) { 
+ 
+  .contact{
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    max-width: 95%;
+
+  }
+  .ContatImg{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  
+  }
+  .contactDetail{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+  }
+  .contactDetail p {
+    max-width: 100%;
+    margin-top:10px;
+    font-size: small;
+
+  }
+  .ContatImg{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
 
 @media screen and (max-width: 600px) { 
     
@@ -59,7 +145,6 @@ align-items: center;
   
     .btn-close{
         display: block;
-    margin-right: 15px;
         
       }
       .d-flex{
@@ -72,14 +157,5 @@ align-items: center;
         text-align: center;
 
       }
-/* .me-auto{
-  margin-left: auto;
-  margin-right: auto;
-} */
-      /* .form-control:active {
-        max-width: 300px;
-        padding-left: 50px;
-        transition: all 0.50s;
-    
-      } */
+  
 }

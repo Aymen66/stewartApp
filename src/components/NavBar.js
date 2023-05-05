@@ -8,40 +8,15 @@ import Button from 'react-bootstrap/Button';
 import React from "react";
 import Logo from "../stewcon_logo2_0.png"
 import { BsSearch } from "react-icons/bs";
-// setExpanded(expanded ? false : "expanded")
 import CloseButton from 'react-bootstrap/CloseButton';
 
 function NavBar() {
-const [expanded, setExpanded] = React.useState(false);
-const [isClose, setIsClose] = React.useState(false);
-const [closeBtn, setCloseBtn] = React.useState(false);
+  const [isShown, setIsShown] = React.useState(false)
+  function toggleShown(){
+      setIsShown(prevShown => !prevShown)
+  }
 
 
-function toggle(){
-  setIsClose(current => !current);
-    setExpanded(function (prevExpanded){
-        if (prevExpanded){
-            return false 
-        } else{
-            return true
-        }
-
-    })
-    setCloseBtn(true)
-}
-function closeHandle(){
-  setCloseBtn(false)
-  setIsClose(current => !current);
-
-  setExpanded(function (prevExpanded){
-    if (prevExpanded){
-        return false 
-    } else{
-        return true
-    }
-
-})
-}
 
 
   return (
@@ -49,35 +24,19 @@ function closeHandle(){
    
    
 
-    <Navbar collapseOnSelect  variant="dark" expanded={expanded} expand="lg">
+    <Navbar collapseOnSelect  variant="dark"  expand="lg">
       <Container >        
 
         <Navbar.Brand href="#home">
        
       <img className='logo' src={Logo}/>
-      {/* {window.innerWidth < 600?<Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              // className="search-hover"
-              aria-label="Search"
-              
-            ></Form.Control>
-            
-            <Button variant="outline-success">
-          <BsSearch /></Button>
-          </Form>: null} */}
+    
         </Navbar.Brand>
 
-        <Navbar.Toggle
-        style={{
-          display: isClose ? 'none' : "",
-          // color: isClose ? 'white' : '',
-        }} onClick={toggle} aria-controls="basic-navbar-nav" />
-        {closeBtn?<CloseButton variant="white"  onClick={closeHandle}/> :null}
+        <Navbar.Toggle onClick={toggleShown}>{isShown?<CloseButton variant="white" ></CloseButton>:null}</Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/"}>Home</Nav.Link>
+            <Nav.Link  eventKey="1"  as={Link} to={"/"}  onClick={() => setIsShown(false)}>Home</Nav.Link>
             <NavDropdown title="About" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -85,7 +44,7 @@ function closeHandle(){
               </NavDropdown.Item>
               
             </NavDropdown>
-            <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/Testimonials"}>Testimonials</Nav.Link>
+            <Nav.Link eventKey="2" onClick={() => setIsShown(false)}  as={Link} to={"/Testimonials"}>Testimonials</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -97,8 +56,8 @@ function closeHandle(){
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link onClick={() => setExpanded(false)} as={Link} to={"/Blog"}>Blog</Nav.Link>
-            <Nav.Link onClick={() => setExpanded(false)} eventKey={0} as={Link} to={"/Contact"}>Contact</Nav.Link>
+            <Nav.Link eventKey="3" onClick={() => setIsShown(false)}  as={Link} to={"/Blog"}>Blog</Nav.Link>
+            <Nav.Link  eventKey="4" onClick={() => setIsShown(false)} as={Link} to={"/Contact"}>Contact</Nav.Link>
 
 
 
@@ -108,7 +67,6 @@ function closeHandle(){
             <Form.Control
               type="search"
               placeholder="Search"
-              // className="search-hover"
               aria-label="Search"
               
             ></Form.Control>
