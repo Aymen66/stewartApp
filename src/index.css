@@ -228,11 +228,11 @@ button.active{
 }
 .cardsMain{
   max-width: 95%;
-  line-height: 5vh;
+  line-height: 4.5vh;
   
 }
 .cardsMain h5{
-  line-height: 5vh;
+  line-height: 4.5vh;
   font-size: large;
   
 }
