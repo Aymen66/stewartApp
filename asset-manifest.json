@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stewartApp/static/css/main.b83bf45b.css",
-    "main.js": "/stewartApp/static/js/main.bf0030f5.js",
+    "main.css": "/stewartApp/static/css/main.b604274e.css",
+    "main.js": "/stewartApp/static/js/main.ca18e6df.js",
     "static/js/787.b9823949.chunk.js": "/stewartApp/static/js/787.b9823949.chunk.js",
     "static/media/banner-1.jpg": "/stewartApp/static/media/banner-1.d3a39849793c3cf601e2.jpg",
     "static/media/banner-2.jpg": "/stewartApp/static/media/banner-2.41cf057a2cc3a8e8fee2.jpg",
@@ -10,12 +10,12 @@
     "static/media/checkIcon.png": "/stewartApp/static/media/checkIcon.f4e411bf9a4c71e34304.png",
     "static/media/contactIMG.jpg": "/stewartApp/static/media/contactIMG.66983d224bbcd1ab7c46.jpg",
     "index.html": "/stewartApp/index.html",
-    "main.b83bf45b.css.map": "/stewartApp/static/css/main.b83bf45b.css.map",
-    "main.bf0030f5.js.map": "/stewartApp/static/js/main.bf0030f5.js.map",
+    "main.b604274e.css.map": "/stewartApp/static/css/main.b604274e.css.map",
+    "main.ca18e6df.js.map": "/stewartApp/static/js/main.ca18e6df.js.map",
     "787.b9823949.chunk.js.map": "/stewartApp/static/js/787.b9823949.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b83bf45b.css",
-    "static/js/main.bf0030f5.js"
+    "static/css/main.b604274e.css",
+    "static/js/main.ca18e6df.js"
   ]
 }
