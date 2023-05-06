@@ -277,7 +277,6 @@ import { Link } from "react-router-dom";
 import CheckIcon from "../image/checkIcon.png";
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import ReadMoreOne from "../components/ReadMoreOne"
 
 export function Representation(){
   const [isShown, setIsShown] = React.useState(true)
@@ -297,7 +296,7 @@ export function Representation(){
       </div>
       </div>:
       <div onClick={toggleShown}>
-       { isShown?<div  className="item">
+       { isShown?<div className="item">
         <img src={CheckIcon} className="CheckIcon"></img>
         <div className="itemCaption">
           <h4>Owner's Representation</h4>

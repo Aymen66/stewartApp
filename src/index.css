@@ -272,6 +272,7 @@ max-width: 95%;
   }
   .itemCaption >h4 {
     font-size: small;
+    padding-bottom: 5px;
    }
    .itemCaption > p {
     font-size: small;
