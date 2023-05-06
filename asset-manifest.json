@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/stewartApp/static/css/main.b604274e.css",
-    "main.js": "/stewartApp/static/js/main.ca18e6df.js",
+    "main.css": "/stewartApp/static/css/main.857e426d.css",
+    "main.js": "/stewartApp/static/js/main.20bbc01d.js",
     "static/js/787.b9823949.chunk.js": "/stewartApp/static/js/787.b9823949.chunk.js",
     "static/media/banner-1.jpg": "/stewartApp/static/media/banner-1.d3a39849793c3cf601e2.jpg",
     "static/media/banner-2.jpg": "/stewartApp/static/media/banner-2.41cf057a2cc3a8e8fee2.jpg",
     "static/media/banner-4.jpg": "/stewartApp/static/media/banner-4.4be7121da1b80128ac71.jpg",
     "static/media/banner-3.jpg": "/stewartApp/static/media/banner-3.30b0c16e1be7e61bfce0.jpg",
     "static/media/checkIcon.png": "/stewartApp/static/media/checkIcon.f4e411bf9a4c71e34304.png",
+    "static/media/representation.jpg": "/stewartApp/static/media/representation.3cd75165c1aa13868ed0.jpg",
     "static/media/contactIMG.jpg": "/stewartApp/static/media/contactIMG.66983d224bbcd1ab7c46.jpg",
     "index.html": "/stewartApp/index.html",
-    "main.b604274e.css.map": "/stewartApp/static/css/main.b604274e.css.map",
-    "main.ca18e6df.js.map": "/stewartApp/static/js/main.ca18e6df.js.map",
+    "main.857e426d.css.map": "/stewartApp/static/css/main.857e426d.css.map",
+    "main.20bbc01d.js.map": "/stewartApp/static/js/main.20bbc01d.js.map",
     "787.b9823949.chunk.js.map": "/stewartApp/static/js/787.b9823949.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b604274e.css",
-    "static/js/main.ca18e6df.js"
+    "static/css/main.857e426d.css",
+    "static/js/main.20bbc01d.js"
   ]
 }
