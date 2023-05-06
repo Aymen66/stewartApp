@@ -48,7 +48,7 @@ font-family:Georgia;
   margin: 10px auto;
 top: 4vh;
 
-box-shadow: 1px 4px 3px #090909;
+box-shadow: 1px 4px 3px #4d4d4d;
 }
 .bannerImage {
   max-width: 100%;
@@ -123,7 +123,39 @@ align-items:center;
 margin: 0%;
 padding: 0%;
 }
+.homeMainSection{
+  margin: 60px auto 10px auto;
+  padding: 20px;
+  max-width: 80%;
+  line-height: 4vh;
+  -moz-box-shadow: 0 0 3px #868080;
+  -webkit-box-shadow: 0 0 3px #868080;
+  box-shadow: 0 0 3px #868080;
+  display: flex;
+  justify-content: space-between;
 
+}
+.toast-header{
+  background-color: #4d4d4d !important;
+  max-width: 100% !important;
+}
+.toast{
+  margin-left: 20px;
+}
+.toast-header .me-auto{
+color: whitesmoke;
+}
+.toast-body{
+  max-width: 100% !important;
+}
+.homeMainSection div{
+  max-width: 70%;
+  
+}
+.homeMainSection h4{
+  margin-bottom: 20px;
+
+}
 button.active{
   background-color:  rgb(239, 230, 230) !important;
 }
@@ -132,8 +164,28 @@ button.active{
     max-width: 95%;
     margin: 0px auto;
     top: 2vh;
+
   }
- 
+  .toast{
+    margin: 10px auto 30px auto;
+  }
+  .homeMainSection div{
+    max-width: 100%;
+    font-size: small;
+    
+  }
+  .homeMainSection div h4{
+    font-size: large;
+    line-height: 4vh;
+
+    
+    
+  }
+.homeMainSection{
+flex-direction: column-reverse;
+max-width: 95%;
+
+}
   .carousel-caption {
     flex-direction: column-reverse;
     justify-content: start;

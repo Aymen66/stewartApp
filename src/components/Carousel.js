@@ -475,7 +475,7 @@ const CarouselFadeExample = () => {
   }
   
   return (
-  <div >
+  
       <Carousel   interval={6000} activeIndex={index} controls={false} onSelect={handleSelect}>
   {slides.map((slide, i) => (
     <Carousel.Item key={i}>
@@ -495,7 +495,7 @@ const CarouselFadeExample = () => {
   ))}
   
 </Carousel>
-  </div>
+  
 
 
   );
