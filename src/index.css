@@ -146,6 +146,10 @@ padding: 0%;
 .toast-header .me-auto{
 color: whitesmoke;
 }
+.toast-header a{
+color: whitesmoke;
+
+}
 .toast-body{
   max-width: 100% !important;
 }
@@ -200,6 +204,10 @@ font-weight: bold;
 button.active{
   background-color:  rgb(239, 230, 230) !important;
 }
+.toast .btn-close{
+  display: none;
+  
+}
 @media screen and (max-width: 900px) {
   .carousel {
     max-width: 95%;
@@ -207,7 +215,7 @@ button.active{
     top: 2vh;
 
   }
-  
+ 
 .cards{
   display: flex;
   flex-direction: column;
