@@ -306,7 +306,7 @@ export function Representation(){
       </div>: <div  className="itemFlip">
         <div className="itemCaptionFlip">
           <p>Keeping owners informed and in financial control of their projects.</p>
-          <Link >Read more</Link>
+          <Link to="/Representation" >Read more</Link>
 
         </div>
       </div>}
@@ -439,14 +439,15 @@ export function Construction(){
 const CarouselFadeExample = () => {
   const [index, setIndex] = useState(0);
   
-
+ 
+ 
   
 
   const slides = [
-    { image: Banner1, title: <Representation/> ,caption: "Keeping owners informed and in financial control of their projects"},
-    { image: Banner2, title: <Mediation/> , caption:" Managing projects for quality workmanship and timely completion."},
-    { image: Banner3, title: <Management/>, caption: "Settling cases quickly and equitably with factual information."},
-    { image: Banner4, title: <Construction/>, caption: "Helping lawyers build firm cases and stick to the construction facts."},
+    { image: Banner1, title: <Representation/> ,caption: <h4 className="caption">Keeping owners informed and in financial control of their projects. <Link to="/Representation" >Read more</Link></h4>},
+    { image: Banner2, title: <Mediation/> , caption:<h4 className="caption">Managing projects for quality workmanship and timely completion.</h4> },
+    { image: Banner3, title: <Management/>, caption: <h4 className="caption">Settling cases quickly and equitably with factual information.</h4>},
+    { image: Banner4, title: <Construction/>, caption: <h4 className="caption">Helping lawyers build firm cases and stick to the construction facts.</h4>},
 
   ];
   const handleSelect = (selectedIndex, e) => {
@@ -483,7 +484,7 @@ const CarouselFadeExample = () => {
       <Carousel.Caption>
         <Heading/>
 
-        <h4 className="caption">{slide.caption}</h4>
+        {slide.caption}
 
       </Carousel.Caption>
       

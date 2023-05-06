@@ -14,7 +14,7 @@ code {
 }
 .caption {
   border: 1px solid black;
-  font-size: x-large;
+  font-size: 20px;
 border-top-right-radius: 50px;
 border-bottom-left-radius: 50px;
 text-shadow: 1px 1px 1px  rgb(136, 82, 82);
@@ -24,6 +24,7 @@ text-shadow: 1px 1px 1px  rgb(136, 82, 82);
   text-align: left;
   padding: 15px 30px;
 font-family:Georgia;
+line-height: 4.5vh;
   
 }
 .carousel-caption {
@@ -152,6 +153,46 @@ color: whitesmoke;
   max-width: 70%;
   
 }
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Card-image{
+  max-width: 40%;
+  aspect-ratio: 5/5;
+  border-radius: 50%;
+}
+.cardsMain{
+  margin: 60px auto 10px auto;
+  padding: 20px;
+  max-width: 80%;
+  line-height: 4vh;
+  -moz-box-shadow: 0 0 3px #868080;
+  -webkit-box-shadow: 0 0 3px #868080;
+  box-shadow: 0 0 3px #868080;
+
+
+ 
+  
+}
+.cardOne{
+  -moz-box-shadow: 0 0 3px #868080;
+  -webkit-box-shadow: 0 0 3px #868080;
+  box-shadow: 0 0 3px #868080;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+font-size: medium;
+
+}
+.cards-title{
+font-size: 20px;
+margin-top: 15px;
+font-weight: bold;
+
+}
 .homeMainSection h4{
   margin-bottom: 20px;
 
@@ -166,6 +207,32 @@ button.active{
     top: 2vh;
 
   }
+  
+.cards{
+  display: flex;
+  flex-direction: column;
+}
+.cards-title{
+  font-size: medium;
+}
+.cardOne ul{
+  font-size: small;
+}
+.cardsMain{
+  max-width: 95%;
+  line-height: 5vh;
+  
+}
+.cardsMain h5{
+  line-height: 5vh;
+  font-size: large;
+  
+}
+.cardsMain .overview{
+  font-size: medium;
+
+
+}
   .toast{
     margin: 10px auto 30px auto;
   }
@@ -186,6 +253,7 @@ flex-direction: column-reverse;
 max-width: 95%;
 
 }
+
   .carousel-caption {
     flex-direction: column-reverse;
     justify-content: start;
@@ -221,6 +289,10 @@ max-width: 95%;
   font-size: small;
   padding: 0px;
   margin: 0%;
+  }
+  .itemCaptionFlip{
+    padding:  0px 5px;
+
   }
   .itemFlip{
   padding: 5px;
